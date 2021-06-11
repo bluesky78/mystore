@@ -10,11 +10,9 @@ body {
 .navbar {
    display: flex;
    align-items: center;
-   padding: 20px;
+   padding: 15px;
 }
-.logo {
-   padding-top: 10px;
-}
+
 .cart:hover {
    opacity: 0.8;
 }
@@ -213,7 +211,7 @@ ul {
    }
    nav ul {
       position: absolute;
-      top: 70px;
+      top: 90px;
       left: 0;
       background: #333;
       width: 100%;
@@ -287,7 +285,7 @@ select:focus {
    .col-2,
    .col-3,
    .col-4 {
-      flex-basis: 100%;
+      flex-basis: 50%;
    }
    .single-product .row {
       text-align: left;
@@ -489,4 +487,18 @@ section {
       display: flex;
       flex-direction: column;
    }
+}
+
+.app-heading {
+   text-align: center;
+   margin: 30px 0 34px;
+}
+.heading-primary {
+   padding: 8px;
+   color: #e19518;
+}
+
+.app-heading .heading-primary {
+   font-size: 26px;
+   line-height: 36px;
 }
