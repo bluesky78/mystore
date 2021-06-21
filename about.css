@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+body {
+   font-family: "Ubuntu", sans-serif;
+   line-height: 1.714;
+}
+h1 {
+   color: #333e48;
+   margin: 30px;
+   font-size: 4em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+p {
+   font-size: 20px;
+   text-align: center;
+}
+.p {
+   margin-bottom: 50px;
+}
+.container-1 {
+   width: 70%;
+   margin: auto;
+}
+
+/* test imonial */
+
+.testimonial {
+   padding-top: 0;
+   margin: 10px;
+}
+.testimonial .col-3 {
+   text-align: center;
+   padding: 30px 20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.testimonial .col-3 img {
+   width: 140px;
+   margin-top: 20px;
+   border-radius: 50%;
+}
+.testimonial .col-3:hover {
+   transform: translateY(-10px);
+}
+.fa.fa-quote-left {
+   font-size: 34px;
+   color: #ff523b;
+}
+.col-3 p {
+   font-size: 12px;
+   margin: 12px 0;
+   color: #777;
+}
+.testimonial .col-3 h3 {
+   font-weight: 600;
+   color: #555;
+   font-size: 16px;
+}
